@@ -1,17 +1,17 @@
 <?php
-    /*DB Online*//*
+    /*DB Online*/
     $server = "db4free.net";
     $username = "arturnic";
     $password = "Luars007";
     $db = "papdatabase";
 
     /*LocalHost*/
-
+/*
     $server = "localhost";
     $username = "root";
     $password = "tgpsi";
     $db = "pap";
-
+*/
 
 
     $connect = mysqli_connect($server, $username, $password, $db);
